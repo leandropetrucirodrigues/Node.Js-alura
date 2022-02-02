@@ -1,0 +1,19 @@
+{
+  "name": "aula-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./test",
+    "cli": "node cli.js ./arquivos/texto1.md"
+  },
+  "author": "LeandroP",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
